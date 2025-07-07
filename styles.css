@@ -9,7 +9,7 @@ ul {
 
 .whole-website {
     display: grid;
-    grid-template: 1fr / 2fr 5fr;
+    grid-template: 1fr / 1fr 5fr;
 }
 
 .sidebar {
@@ -81,4 +81,47 @@ ul {
 .privacy::before {
     content: url("/icons/privacy.svg") " ";
     vertical-align: middle;   
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.header-right {
+    display: flex;
+    gap: 15px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-right: 1rem;
+}
+
+.user-name {
+    padding-left: .5rem;
+}
+
+.header-right img:first-of-type {
+    height: 1.5rem;
+}
+
+.header-right > img + img {
+    height: 2.5rem;
+    margin-top: -.5rem;
+}
+
+.header-left {
+    gap: 30px;
+    padding-left: 1rem;
+}
+
+.search-img {
+    vertical-align: middle;
+    margin-right: 1rem;
+}
+
+.search {
+    background-color: rgba(128, 128, 128, 0.406);
+    border: none;
+    border-radius: 15px;
 }
