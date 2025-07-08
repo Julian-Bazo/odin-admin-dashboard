@@ -133,3 +133,50 @@ ul {
 .notification-icon {
     padding-right: .1rem;
 }
+
+.introduction {
+    display: grid;
+    grid-template: 1rem / repeat(2, 1fr);
+}
+
+.introduction-left {
+    display: flex;
+    gap: .5rem;
+    padding-left: 1rem;
+}
+
+.introduction-right {
+    padding-top: 1.7rem;
+    display: grid;
+    grid-template: 2rem / repeat(3, 6rem);
+    column-gap: 1.7rem;
+    justify-self: end;
+    padding-right: 1rem;
+}
+
+.introduction-right button {
+    font-weight: 700;
+    background-color: #31baec;
+    border: none;
+    color: white;
+    border-radius: 30%;
+}
+
+.placeholder-img {
+    height: 5rem;
+}
+
+.main-profile {
+    font-weight: 700;
+    padding-top: 3rem;
+    font-size: 1.2rem;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.main-profile::before {
+    content: "Hi there,";
+    font-size: .9rem;
+    position: absolute;
+    top: 1.7rem;
+}
