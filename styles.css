@@ -201,3 +201,11 @@ ul {
 .projects-right {
     padding-right: 1rem;
 }
+
+.img-card-div {
+    text-align: right;
+    vertical-align: middle;
+    display: flex;
+    justify-content: flex-end;
+    gap: .8rem;
+}
