@@ -36,53 +36,53 @@ ul {
 }
 
 .dashboard::before {
-    content: url("/icons/dashboard.svg") " ";
+    content: url("icons/dashboard.svg") " ";
     vertical-align: middle;   
     margin-left: 1rem;
 }
 
 .home::before {
-    content: url("/icons/home.svg") " ";
+    content: url("icons/home.svg") " ";
     vertical-align: middle;   
 }
 
 .profile::before {
-    content: url("/icons/profile.svg") " ";
+    content: url("icons/profile.svg") " ";
     vertical-align: middle;   
 }
 
 .messages::before {
-    content: url("/icons/messages.svg") " ";
+    content: url("icons/messages.svg") " ";
     vertical-align: middle;   
 }
 
 .history::before {
-    content: url("/icons/history.svg") " ";
+    content: url("icons/history.svg") " ";
     vertical-align: middle;   
 }
 
 .tasks::before {
-    content: url("/icons/tasks.svg") " ";
+    content: url("icons/tasks.svg") " ";
     vertical-align: middle;   
 }
 
 .communities::before {
-    content: url("/icons/communities.svg") " ";
+    content: url("icons/communities.svg") " ";
     vertical-align: middle;   
 }
 
 .settings::before {
-    content: url("/icons/settings.svg") " ";
+    content: url("icons/settings.svg") " ";
     vertical-align: middle;   
 }
 
 .support::before {
-    content: url("/icons/support.svg") " ";
+    content: url("icons/support.svg") " ";
     vertical-align: middle;   
 }
 
 .privacy::before {
-    content: url("/icons/privacy.svg") " ";
+    content: url("icons/privacy.svg") " ";
     vertical-align: middle;   
 }
 
